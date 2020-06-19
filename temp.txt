@@ -1,0 +1,24 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand">STARREF Inventory System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          
+        </li>
+        <li class="nav-item">
+         
+        </li>
+        <li class="nav-item">
+          
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0 logout" id = "logout" action="../php/logout.php">
+        <button class="btn btn-outline-light" type="submit" style="color: #f8f9fa" >Log Out</button>
+      </form>
+    </div>
+  </nav>
+</header>
